@@ -1,24 +1,22 @@
 import React from "react";
-import { Card, CardHeader, CardBody, CardTitle } from "reactstrap";
 import Animated_Numbers from "./Animated_Numbers";
+import "./component.css";
 
 const FigureCard = ({ figure, heading }) => {
   return (
     <>
-      <Card className="my-2" color="rgb(192,192,192)" outline style={{boxShadow : ' 0 0 80px rgba(0, 0, 0, 0.1)' , margin : '0.5vw'}}>
-        <CardHeader
-          tag="h5"
-          style={{ textAlign: "center" }}
-        >
+      <div
+        className="card"
+        style={{boxShadow : "0 0 80px rgba(0, 0, 0, 0.1)", height : '10rem'}}
+      >
+        <div className="card-heading">
           {heading}
-        </CardHeader>
-        <CardBody>
-          <CardTitle style={{alignContent : 'center'}}>
-            <Animated_Numbers figure={figure} />
-          </CardTitle>
-        </CardBody>
-      </Card>
-      <Card />
+        </div>
+
+        <div className="card-text">
+          <Animated_Numbers figure={figure} />
+        </div>
+      </div>
     </>
   );
 };

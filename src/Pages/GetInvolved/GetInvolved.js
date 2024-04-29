@@ -79,7 +79,6 @@ export default App;
 const AppContainer = styled.div`
  
   color: #000000;
-
   position: relative;
   display: flex;
   align-items: center;
@@ -88,7 +87,6 @@ const AppContainer = styled.div`
 
 const Wrapper = styled.div`
   width: 100%;
- 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,7 +112,6 @@ const Marquee = styled.div`
   width: 1200px;
   overflow: hidden;
   user-select: none;
-
   mask-image: linear-gradient(
     to right,
     hsl(0 0% 0% / 0),

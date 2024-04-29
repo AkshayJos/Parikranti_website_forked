@@ -1,0 +1,27 @@
+.card{
+height : 10rem;
+width: 18rem;
+color: rgb(192,192,192);
+ margin: 0.5vw;
+ border-radius: 1rem;
+}
+
+.card-heading{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(99, 98, 98);
+    text-align: center;
+    padding: 1rem;  
+    border-bottom: 0.001rem solid rgba(0, 0, 0, 0.1);
+}
+
+.card-text{
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+}
+
+.card-group{
+    display: flex;
+}
+

@@ -1,0 +1,31 @@
+.img-div{
+    height: 44rem;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-idea-group{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.card-idea{
+    height: 20rem;
+    width: 42.3rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 3vh;
+    padding: 1rem;
+    margin: 1.5rem;
+}
+
+.card-idea-title{
+color: #333333;
+font-weight: bold;
+font-size: 3vh;
+text-align: center;
+padding-bottom: 0.6rem;
+}
+
+.card-idea-text{
+    text-align: center;
+}

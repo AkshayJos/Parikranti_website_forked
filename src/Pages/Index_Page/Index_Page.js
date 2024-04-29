@@ -1,4 +1,3 @@
-
 import './Index_page.css';
 import {Link} from 'react-router-dom'
 

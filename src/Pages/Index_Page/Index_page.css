@@ -46,7 +46,6 @@ body{
 
 
 .item{ 
- 
   width: 200px;
    height: 100px;
    display: flex;
@@ -85,7 +84,6 @@ body{
 }
 
 
-
 .btn1{
   padding: 16px 20px;
   border: border-box;
@@ -97,9 +95,10 @@ body{
   font-weight: 700;
   margin: 17px;
   font-size: 1.5rem;
-   
+  
   border-radius: 36px;
   cursor:pointer;
+  height: 70px;
 }
 .btn1:hover{
   background-color: whitesmoke;

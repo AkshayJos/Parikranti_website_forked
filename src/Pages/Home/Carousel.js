@@ -25,7 +25,7 @@ function Carousel( {images} ) {
   console.log(current);
   return (
     <div
-      className="carousel"
+      className="my-carousel"
       onMouseEnter={() => {
         setAutoPlay(true);
         clearTimeout(timeOut);
@@ -34,7 +34,7 @@ function Carousel( {images} ) {
         setAutoPlay(true);
       }}
     >
-      <div className="carousel_wrapper">
+      <div className="my-carousel_wrapper">
         {images.map((image, index) => {
           return (
             /* (condition) ? true : false */
@@ -43,8 +43,8 @@ function Carousel( {images} ) {
               key={index}
               className={
                 index == current
-                  ? "carousel_card carousel_card-active"
-                  : "carousel_card"
+                  ? "my-carousel_card my-carousel_card-active"
+                  : "my-carousel_card"
               }
             >
               <img className="card_image" src={image.image} alt="" />
@@ -54,13 +54,13 @@ function Carousel( {images} ) {
             </div>
           );
         })}
-        <div className="carousel_arrow_left" onClick={slideLeft}>
+        <div className="my-carousel_arrow_left" onClick={slideLeft}>
           &lsaquo;
         </div>
-        <div className="carousel_arrow_right" onClick={slideRight}>
+        <div className="my-carousel_arrow_right" onClick={slideRight}>
           &rsaquo;
         </div>
-        <div className="carousel_pagination">
+        <div className="my-carousel_pagination">
           {images.map((_, index) => {
             return (
               <div

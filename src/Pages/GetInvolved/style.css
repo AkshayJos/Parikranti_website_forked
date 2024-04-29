@@ -41,6 +41,7 @@ body {
     padding-top: 30px;
     padding-bottom: 10px;
 }
+
 .btn{
     padding: 16px 100px;
     border: 2px solid white;
@@ -50,7 +51,6 @@ body {
     margin: 17px;
     font-size: 1.5rem;
     font-weight: 900;
- 
     border-radius: 45px;
     cursor:pointer;
   }

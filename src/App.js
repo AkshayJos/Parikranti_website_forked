@@ -5,7 +5,6 @@ import GetInvolved from "./Pages/GetInvolved/GetInvolved";
 import Idea from "./Pages/Idea/Idea_S";
 import Index from "./Pages/Index_Page/Index_Page";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Footer from "./components/Footer";
 import Donation from "./Pages/Donation/App";
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
       element: (
         <>
           <Navbar /> <Home />
-          <Footer/>
+        
         </>
       ),
     },
@@ -30,7 +29,7 @@ function App() {
           {" "}
           <Navbar />
           <GetInvolved />
-          <Footer/>
+         
         </>
       ),
     },
@@ -40,7 +39,7 @@ function App() {
         <>
           <Navbar />
           <About />
-          <Footer/>
+         
         </>
       ),
     },
@@ -50,7 +49,7 @@ function App() {
         <>
           <Navbar />
           <Idea />
-          <Footer/>
+      
         </>
       ),
     },
@@ -60,7 +59,7 @@ function App() {
         <>
           <Navbar />
           <Donation/>
-          <Footer/>
+        
         </>
       ),
     },
