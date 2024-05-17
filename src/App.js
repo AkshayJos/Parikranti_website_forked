@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About_Us/About";
 import GetInvolved from "./Pages/GetInvolved/GetInvolved";
@@ -18,6 +19,7 @@ function App() {
       element: (
         <>
           <Navbar /> <Home />
+          <Footer/>
         
         </>
       ),
@@ -29,7 +31,7 @@ function App() {
           {" "}
           <Navbar />
           <GetInvolved />
-         
+          <Footer/>
         </>
       ),
     },
@@ -39,7 +41,7 @@ function App() {
         <>
           <Navbar />
           <About />
-         
+          <Footer/>
         </>
       ),
     },
@@ -49,7 +51,7 @@ function App() {
         <>
           <Navbar />
           <Idea />
-      
+          <Footer/>
         </>
       ),
     },
@@ -59,7 +61,7 @@ function App() {
         <>
           <Navbar />
           <Donation/>
-        
+          <Footer/>
         </>
       ),
     },
