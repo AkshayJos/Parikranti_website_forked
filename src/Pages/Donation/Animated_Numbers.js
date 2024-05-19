@@ -14,7 +14,7 @@ function Animated_Numbers({figure}) {
         includeComma
         transitions={(index) => ({
           type: "spring",
-          duration: index + 0.1,
+          duration: index ,
         })}
         animateToNumber={figure}
         fontStyle={{

@@ -1,19 +1,7 @@
-.body{
-    padding: 0px;
-    margin: 0px;
-}
-
-.footer{
-    width: 100%;
-    height: 16rem;
-    margin-top: 2rem;
-}
-
-.header{
+.footer-header{
     width: 100%;
     height: 5.5rem;
     display: flex;
-    background-color: gray;
     border-bottom: 0.1rem solid rgba(91, 88, 88, 0.01);
     background-color: rgba(0, 0, 0, 0.01);
 }
@@ -48,11 +36,9 @@
   
   #donate-btn:focus {
     outline: none;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
   }
-  
 
-.icons{
+  .icons{
     height: 2.3rem;
     display: flex;
     justify-content: center;
@@ -68,6 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 0.5rem;
 }
 
 .icon{
@@ -77,32 +64,82 @@
     outline: none;
 }
 
-.contact{
-    background-color: rgba(0, 0, 0, 0.09);
-    height: 60%;
-    width: 100%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    border-radius: 1rem;
-}
 
-.contact-us{
+
+
+
+
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    text-align: left;
+    padding: 0px;
+  }
+  
+  .footer-container {
     display: flex;
-    justify-content: center;
-    padding: 1rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-}
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    padding: 0px;
+  }
+  
+  .footer-section ul li i {
+    margin-right: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-container {
+      padding: 0 10px;
+    }
+  
+    .footer-bottom {
+      font-size: 14px;
+    }
+  }
 
-.contact-info{
-    display: flex;
-    justify-content: center;
-}
-
-#contact-statements{
-  margin: 0px;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  white-space: pre;
-  font-size: 1.1rem;
-  font-weight: 500;
-}
+  #copyright{
+    margin: 0px;
+    padding: 20px;
+    background-color: #ecebeb;
+  }
+  
