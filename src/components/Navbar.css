@@ -54,18 +54,18 @@ body {
     padding: 0px;
     border-radius: 50%;
   }
-  ul {
+  #ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
-  li {
+  #li {
     float: left;
   }
   
-  li  {
+  #li  {
     display: block;
     color: #333;
     font-weight: 100;
@@ -76,7 +76,7 @@ body {
     text-decoration: none;
   }
   
-  li:hover {
+  #li:hover {
     background-color: rgb(120,120,120);
     color: white;
   }

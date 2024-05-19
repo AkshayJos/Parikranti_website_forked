@@ -18,13 +18,13 @@ export default function Navbar() {
 <div id="search-panel">
   <input  type="text" id="search-input" placeholder="Search for NGO..." />
 </div>
-<ul>
-<NavLink to='/home'><li>Home</li></NavLink>
-<NavLink to='/getInvolved'><li>Get Involved</li></NavLink>
-   <NavLink to='/about'><li>About Us</li></NavLink>
+<ul id='ul'>
+<NavLink to='/home'><li id='li'>Home</li></NavLink>
+<NavLink to='/getInvolved'><li id='li'>Get Involved</li></NavLink>
+   <NavLink to='/about'><li id='li'>About Us</li></NavLink>
   
-   <NavLink to='/idea'><li>Idea And strategy</li></NavLink>
-   <NavLink to='/donation'><li>Donation</li></NavLink>
+   <NavLink to='/idea'><li id='li'>Idea And strategy</li></NavLink>
+   <NavLink to='/donation'><li id='li'>Donation</li></NavLink>
    
    
 </ul>
