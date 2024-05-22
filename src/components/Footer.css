@@ -64,6 +64,15 @@
     outline: none;
 }
 
+.icon2{
+  height: 1rem;
+  width: 1rem;
+  color: black;
+  outline: none;
+  margin-right: 0.5rem;
+}
+
+
 
 
 
@@ -91,6 +100,7 @@
 }
 
 .footer-section h4 {
+  text-align: left;
   margin-bottom: 10px;
 }
 
@@ -100,12 +110,13 @@
 }
 
 .footer-section ul li {
+  text-align: left;
   margin: 5px 0;
   color:black;
 }
 
 .footer-bottom {
-  text-align: center;
+  text-align: left;
   margin-top: 20px;
   padding-top: 10px;
   border-top: 1px solid #ddd;
@@ -142,5 +153,9 @@
   margin: 0px;
   padding: 20px;
   background-color: #e5e5e5;
+}
+
+.footer-section p{
+  text-align: left;
 }
 
