@@ -1,30 +1,15 @@
-import React, {useEffect} from "react";
-import AnimatedNumbers from "react-animated-numbers";
+import { useSpring, animated } from "react-spring";
 
-function Animated_Numbers({figure}) {
-  const [num, setNum] = React.useState(figure);
-
-  useEffect(() => {
-    setNum((state) => figure);
-  },[]); 
-
+export default function Animated_Numbers({ figure }) {
+  const { number } = useSpring({
+    from: { number: 0 },
+    number: figure,
+    delay: 200,
+    config: { mass: 100, tension: 2000, friction: 1000 },
+  });
   return (
-    <div >
-      <AnimatedNumbers
-        includeComma
-        transitions={(index) => ({
-          type: "spring",
-          duration: index ,
-        })}
-        animateToNumber={figure}
-        fontStyle={{
-          fontSize: '4vh',
-          color: "red",
-        }}
-      />
-     
+    <div style={{color : 'red',fontSize : '1.5rem', display : 'flex',  justifyContent : 'center', }}>
+      <animated.div>{number.to((n) => n.toFixed(0))}</animated.div><p>+</p>
     </div>
   );
 }
-
-export default Animated_Numbers;

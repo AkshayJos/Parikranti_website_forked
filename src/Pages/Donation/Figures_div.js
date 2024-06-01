@@ -6,15 +6,15 @@ const Figures = () => {
   return (
     <>
       <div className="card-group">
-        <FigureCard figure="25141" heading="No. of Donors" />
+        <FigureCard figure= {5141} heading="No. of Donors" />
 
-        <FigureCard figure="600000" heading="Amount Collected" />
+        <FigureCard figure= {6000} heading="Amount Collected" />
 
-        <FigureCard figure="12312454" heading="Amount Used" />
+        <FigureCard figure= {1231} heading="Amount Used" />
 
-        <FigureCard figure="4124255" heading="Remaining Amount" />
+        <FigureCard figure= {4124} heading="Remaining Amount" />
 
-        <FigureCard figure="55363" heading="Receipts & Balance Sheet" />
+        <FigureCard figure= {553} heading="Receipts & Balance Sheet" />
       </div>
     </>
   );
