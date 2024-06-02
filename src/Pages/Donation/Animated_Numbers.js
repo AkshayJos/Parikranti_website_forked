@@ -1,6 +1,7 @@
 import { useSpring, animated } from "react-spring";
+import './component.css';
 
-export default function Animated_Numbers({ figure }) {
+export default function AnimatedNumbers({ figure }) {
   const { number } = useSpring({
     from: { number: 0 },
     number: figure,
@@ -8,7 +9,7 @@ export default function Animated_Numbers({ figure }) {
     config: { mass: 100, tension: 2000, friction: 1000 },
   });
   return (
-    <div style={{color : 'red',fontSize : '1.5rem', display : 'flex',  justifyContent : 'center', }}>
+    <div className='animated-Numbers'>
       <animated.div>{number.to((n) => n.toFixed(0))}</animated.div><p>+</p>
     </div>
   );

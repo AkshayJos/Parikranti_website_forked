@@ -24,3 +24,10 @@ color: rgb(192,192,192);
     display: flex;
 }
 
+.animated-Numbers{
+  color: red;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+

@@ -1,5 +1,5 @@
 import React from "react";
-import Animated_Numbers from "./Animated_Numbers";
+import AnimatedNumbers from "./Animated_Numbers";
 import "./component.css";
 
 const FigureCard = ({ figure, heading }) => {
@@ -14,7 +14,7 @@ const FigureCard = ({ figure, heading }) => {
         </div>
 
         <div className="card-text">
-          <Animated_Numbers figure={figure} />
+          <AnimatedNumbers figure={figure} />
         </div>
       </div>
     </>
