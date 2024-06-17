@@ -59,8 +59,8 @@
 }
 
 .icon{
-    height: 25px;
-    width: 25px;
+    height: 1.5rem;
+    width: 1.5rem;
     color: black;
     outline: none;
 }
@@ -169,7 +169,4 @@ a{
   text-decoration: none;
   color: black;
 }
-
-
-
 

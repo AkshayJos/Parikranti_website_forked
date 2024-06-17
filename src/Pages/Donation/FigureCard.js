@@ -2,6 +2,7 @@ import React from "react";
 import AnimatedNumbers from "./Animated_Numbers";
 import "./component.css";
 
+
 const FigureCard = ({ figure, heading }) => {
   return (
     <>
