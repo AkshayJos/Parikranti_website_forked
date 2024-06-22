@@ -118,25 +118,28 @@ function Footer() {
         <div className="footer-section">
           <h4>QUICK LINKS</h4>
           <ul>
-            <Link to="/home">
-              <li>Home</li>
-            </Link>
+            <li>
+              {" "}
+              <a href="/home">Home </a>
+            </li>
 
-            <Link to="/getInvolved">
-              <li>Get Involved</li>
-            </Link>
+            <li>
+              <a href="/getInvolved">Get Involved </a>
+            </li>
 
-            <Link to="/about">
-              <li>About Us</li>
-            </Link>
+            <li>
+              {" "}
+              <a href="/about">About Us</a>
+            </li>
 
-            <Link to="/idea">
-              <li>Idea And strategy</li>
-            </Link>
+            <li>
+              <a href="/idea">Idea And strategy </a>
+            </li>
 
-            <Link to="/donation">
-              <li>Donation</li>
-            </Link>
+            <li>
+              {" "}
+              <a href="/donation">Donation </a>
+            </li>
           </ul>
         </div>
         <div className="footer-section">
